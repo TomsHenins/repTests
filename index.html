@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+    </header>
+        <div id="kp" class="kop" style="display: block;">
+          <div class="left">
+                <div id="first">
+                    <h1>Dont have an account!</h1>
+                    <hr id="und3">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+                        <button id="sign" class="signup">Sign Up</button>
+                </div>
+            </div>
+		    <div class="right" id="r" style="display: block">
+                <form class="form"  action="form.php" method="post">
+                    <div id="second">
+                        <div id="move" style="position: absolute">
+                        <div class="header">
+                            <img src="logo.png" alt="logo" />
+                            <h2>Login</h2>
+                            <hr class="und2">
+                         </div>
+                             <br/>
+                            <input id="mail"  pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" type="text" placeholder="Email" name="email" required>
+
+                            <br/>
+
+                            <input id="psw" type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                            <br/>
+
+                            <br/> <br/>
+                        <div class="login" id="element2">
+                            <button id="line" class="btn" value="submit" name="submit" type="submit">Login</button>
+
+                        </div>
+                        <div id="element1">
+                             <span class="psw"><a style="color: dimgrey; text-decoration: none;" href="#">Forgot?</a></span>
+                            </div>
+                    </div>
+                    </div>
+                         <br/>
+                </form>
+
+            </div>
+        </div>
+        <div id="clear">
+        </div>
+    <div id="kp2" class="kop2" style="display: none;">
+        <div class="left2">
+            <div id="first2">
+                <h1>Have an account!</h1>
+                <hr id="und1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <button id="sign2" class="signup2">Login</button>
+
+            </div>
+        </div>
+        <div class="right2" id="r2" style="display: block;">
+            <form class="form2" action="reg.php" method="post">
+                <div id="second2">
+                    <div id="move2" style="position: absolute">
+                    <div class="header2">
+                        <img src="logo.png" alt="logo" />
+                        <h2>Sign up</h2>
+                        <hr class="und2">
+                    </div>
+                    <br/>
+
+                    <input id="name2" type="text" placeholder="Name" name="regname" required>
+
+                    <br/>
+
+                    <input id="mail2" type="text" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Email" name="regemail" required>
+
+                    <br/>
+
+                    <input id="psw2" type="password" placeholder="Password" name="regpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                    <br/>
+                    <input id="date" placeholder="name" type="date" name="age">
+
+                    <br/> <br/>
+                    <div  class="login2" id="element22">
+                        <button id="line2" value="submit" class="btn2" type="submit">Sign Up</button>
+
+                    </div>
+                </div>
+                </div>
+                <br/>
+            </form>
+        </div>
+    </div>
+    <div id="clear2">
+    </div>
+  <script src="jquery.js"></script>
+
+    <script type="text/javascript">
+
+
+       $(".signup").click(function() {
+           setTimeout(function () {
+               document.getElementById("kp").style.display = "none";
+               document.getElementById("kp2").style.display = "block";
+           }, 400);
+       });
+
+
+       $(".signup2").click(function() {
+           setTimeout(function () {
+               document.getElementById("kp").style.display = "block";
+               document.getElementById("kp2").style.display = "none";
+           }, 400);
+       });
+       $("#sign2").click(function(){
+           $(".right").animate({marginLeft: "50%"});
+       });
+
+       $("#sign2").click(function(){
+           $(".right2").animate({marginLeft: "50%"});
+       });
+       $("#sign2").click(function(){
+           $(".right2").animate({marginLeft: "26%"});
+       });
+       $("#sign").click(function(){
+           $(".right").animate({marginLeft: "26%"});
+       });
+       $("#sign").click(function(){
+           $("#move").animate({opacity: '1', opacity: '0'});
+       });
+       $("#sign").click(function(){
+           $("#move").animate({opacity: '1'});
+       });
+       $("#sign2").click(function(){
+           $("#move2").animate({opacity: '1', opacity: '0'});
+       });
+       $("#sign2").click(function(){
+           $("#move2").animate({opacity: '1'});
+       });
+
+
+
+    </script>
+
+</body>
+
+</html>
