@@ -299,7 +299,7 @@ input#name2 {
 #second2 {
 
     width: 23%;
-    padding-left: 5.1%;
+    padding-left: 4%;
     float: left;
     height: 1835%;
     background: url("fons1.png") ;
@@ -320,7 +320,6 @@ input#name2 {
     height: 320px;
     color: black;
     margin-right: 600px;
-    margin-top: 0%;
 
 }
 
