@@ -1,5 +1,5 @@
 body {
-background-image: url("background.png");
+background-image: url("img/background.png");
 background-repeat: no-repeat;
 background-position: fill;
 background-size: cover;
@@ -85,12 +85,7 @@ background-size: cover;
     position: relative;
     transition: 0.5s;
 }
-/*.right   {
-    padding-top: 200px;
-    position: absolute;
-    text-align:center ;
-}
-*/
+
 .kop {
     position: relative;
 }
@@ -119,7 +114,7 @@ p {
     padding-right: 220%;
     float: left;
     height: 300px;
-    background: url("tuksvidusmelns.png");
+    background: url("img/tuksvidusmelns.png");
     color: black;
     margin-top: 50%;
     box-sizing: border-box;
@@ -131,7 +126,7 @@ p {
     margin-left: 1%;
     float: left;
     height: 1725%;
-    background: url("fons1.png") ;
+    background: url("img/fons1.png") ;
     color: black;
     margin-top: 7%;
     position: absolute;
@@ -149,18 +144,24 @@ p {
     color: black;
     margin-right: 600px;
     margin-top: 0%;
-
 }
+
 #clear {
     clear: both;
 }
 
 .for{
     color: gray;
-
 }
 
-#element1 {float:left; padding-left: 110px;} #element2 {float:left;}
+#element1 {
+    float:left;
+    padding-left: 110px;
+}
+
+#element2 {
+    float:left;
+}
 
 input{
     height:11%;
@@ -175,7 +176,7 @@ input:focus {
 }
 
 input#psw {
-    background-image: url(lock.png);
+    background-image: url("img/lock.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
@@ -186,13 +187,12 @@ input#psw {
 }
 
 input#mail {
-    background-image: url(mail.png);
+    background-image: url("img/mail.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
     margin-top: 10px;
     padding-left: 25px;
-
     font-size: 14px;
     box-shadow: 0 0 10px;
 }
@@ -208,7 +208,6 @@ input#mail {
     top: 18px;
     font-family: serif;
     color: #5a5555;
-
 }
 
 #und1{
@@ -228,7 +227,7 @@ input#mail {
     border-color: #0796C1;
 }
 input#psw2 {
-    background-image: url(lock.png);
+    background-image: url("img/lock.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
@@ -238,7 +237,7 @@ input#psw2 {
     box-shadow: 0 0 10px;
 }
 input#date {
-    background-image: url(old-man-vector-png.png);
+    background-image: url("img/old-man-vector-png.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
@@ -249,7 +248,7 @@ input#date {
     color: #5a5555;
 }
 input#mail2 {
-    background-image: url(mail.png);
+    background-image: url("img/mail.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
@@ -260,7 +259,7 @@ input#mail2 {
 }
 
 input#name2 {
-    background-image: url(lock2.png);
+    background-image: url("img/lock2.png");
     background-repeat: no-repeat;
     background-position: 6px;
     border: 1px solid #DADADA;
@@ -281,7 +280,6 @@ input#name2 {
     top: 18px;
     font-family: serif;
     color: #5a5555;
-
 }
 
 #first2{
@@ -290,19 +288,18 @@ input#name2 {
     padding-right:  15%;
     float: left;
     height:  300px;
-    background: url("tuksvidusmelns.png");
+    background: url("img/tuksvidusmelns.png");
     color: black;
     margin-top: 50%;
     box-sizing: border-box;
 }
-
 #second2 {
 
     width: 23%;
     padding-left: 4%;
     float: left;
     height: 1835%;
-    background: url("fons1.png") ;
+    background: url("img/fons1.png");
     color: black;
     margin-top: 6.3%;
     position: absolute;
@@ -322,7 +319,6 @@ input#name2 {
     margin-right: 600px;
 
 }
-
 #clear2 {
     clear: both;
 }
@@ -330,14 +326,11 @@ input#name2 {
 .for2{
     color: gray;
 }
-
 #element22 {float:left;}
 
 .kop2 {
     position: relative;
-
 }
-
 .right2 {
     width: 200px;
     margin-left: 26%;
