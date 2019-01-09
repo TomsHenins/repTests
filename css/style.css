@@ -43,7 +43,7 @@ background-size: cover;
     opacity: 1;
     right: 0;
 }
-.signup {
+#sign {
     display: inline-block;
     padding: 15px 40px;
     color: #aeddf5;
@@ -52,7 +52,7 @@ background-size: cover;
     text-decoration: none;
     font-size: 14px;
     line-height: 120%;
-    background-color: rgba(255,255,255, 0);
+    background-color: rgba(255,255,255,0);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 25px;
@@ -62,15 +62,15 @@ background-size: cover;
     cursor: pointer;
     outline: none;
 }
-.signup:hover{
+#sign:hover{
     background-color: dodgerblue;
 }
-.signup:hover span:after {
+#sign:hover span:after {
     opacity: 1;
     right: 0;
     background-color: #aeddf5;
 }
-.signup span:after {
+#sign span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -78,19 +78,20 @@ background-size: cover;
     right: -20px;
     transition: 0.5s;
 }
-.signup span {
+#sign span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
-
-.kop {
+#pirma-lapa {
     position: relative;
+    display: block;
 }
 .right {
     width: 200px;
     margin-left:50%;
+    display: block;
 }
 
 .left {
@@ -143,6 +144,7 @@ p {
     color: black;
     margin-right: 600px;
     margin-top: 0%;
+    position: absolute;
 }
 
 #clear {
@@ -156,6 +158,10 @@ p {
 #element1 {
     float:left;
     padding-left: 110px;
+}
+.psw a {
+    text-decoration: none;
+    color: #606060;
 }
 
 #element2 {
@@ -183,6 +189,8 @@ input#psw {
     padding-left: 25px;
     font-size: 14px;
     box-shadow: 0 0 10px;
+    color: dimgrey;
+    text-decoration: none;
 }
 
 input#mail {
@@ -196,13 +204,13 @@ input#mail {
     box-shadow: 0 0 10px;
 }
 
-.header img {
+#header img {
     float: right;
     padding-right: 50px;
     padding-top: 25px;
 }
 
-.header h2 {
+#header h2 {
     position: relative;
     top: 18px;
     font-family: serif;
@@ -268,13 +276,13 @@ input#name2 {
     margin-top: 5px;
 }
 
-.header2 img {
+#header2 img {
     float: right;
     padding-right: 50px;
     padding-top: 20px;
 }
 
-.header2 h2 {
+#header2 h2 {
     position: relative;
     top: 18px;
     font-family: serif;
@@ -315,7 +323,7 @@ input#name2 {
     height: 320px;
     color: black;
     margin-right: 600px;
-
+    position: absolute;
 }
 #clear2 {
     clear: both;
@@ -328,12 +336,14 @@ input#name2 {
     float:left;
 }
 
-.kop2 {
+#otra-lapa {
     position: relative;
+    display: none;
 }
 .right2 {
     width: 200px;
     margin-left: 26%;
+    display: block;
 }
 
 .left2 {
@@ -383,7 +393,7 @@ input#name2 {
     right: 0;
 }
 
-.signup2 {
+#sign2{
     display: inline-block;
     padding: 15px 40px;
     color: #aeddf5;
@@ -404,16 +414,16 @@ input#name2 {
     outline: none;
 }
 
-.signup2:hover{
+#sign2:hover{
     background-color: dodgerblue;
 }
 
-.signup2:hover span:after {
+#sign2:hover span:after {
     opacity: 1;
     right: 0;
 }
 
-.signup2 span:after {
+#sign2 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -422,7 +432,7 @@ input#name2 {
     transition: 0.5s;
 }
 
-.signup2 span {
+#sign2 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
