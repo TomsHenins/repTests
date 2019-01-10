@@ -95,7 +95,7 @@ background-size: cover;
     display: block;
 }
 
-#left {
+.left {
     width: 200px;
     margin-left:25%;
 }
@@ -148,7 +148,7 @@ p {
     position: absolute;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
@@ -318,9 +318,6 @@ input#name2 {
     margin-right: 600px;
     position: absolute;
 }
-#clear2 {
-    clear: both;
-}
 
 .for2{
     color: gray;
@@ -339,13 +336,9 @@ input#name2 {
     display: block;
 }
 
-#left2{
-    width: 200px;
-    margin-left:25%;
 
-}
 
-.login2 #login-style2 {
+#login-style2 {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
