@@ -4,7 +4,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-.login #line {
+.login #login-style {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -21,14 +21,14 @@ background-size: cover;
 
 
 }
-#line span {
+#login-style span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-#line span:after {
+#login-style span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -36,11 +36,11 @@ background-size: cover;
     right: -20px;
     transition: 0.5s;
 }
-#line:hover span {
+#login-style:hover span {
     padding-right: 25px;
 }
 
-#line:hover span:after {
+#login-style:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -345,7 +345,7 @@ input#name2 {
 
 }
 
-.login2 #line2 {
+.login2 #login-style2 {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -361,14 +361,14 @@ input#name2 {
     margin-top: 10%;
 }
 
-#line2 span {
+#login-style2 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-#line2 span:after {
+#login-style2 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -377,11 +377,11 @@ input#name2 {
     transition: 0.5s;
 }
 
-#line2:hover span {
+#login-style2:hover span {
     padding-right: 25px;
 }
 
-#line2:hover span:after {
+#login-style2:hover span:after {
     opacity: 1;
     right: 0;
 }
