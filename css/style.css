@@ -4,7 +4,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-.login .btn {
+.login #line {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -19,15 +19,16 @@ background-size: cover;
     top: 15%;
     outline: none;
 
+
 }
-.btn span {
+#line span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.btn span:after {
+#line span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -35,11 +36,11 @@ background-size: cover;
     right: -20px;
     transition: 0.5s;
 }
-.btn:hover span {
+#line:hover span {
     padding-right: 25px;
 }
 
-.btn:hover span:after {
+#line:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -88,13 +89,13 @@ background-size: cover;
     position: relative;
     display: block;
 }
-.right {
+#right-box {
     width: 200px;
     margin-left:50%;
     display: block;
 }
 
-.left {
+#left {
     width: 200px;
     margin-left:25%;
 }
@@ -159,7 +160,7 @@ p {
     float:left;
     padding-left: 110px;
 }
-.psw a {
+#href-link a {
     text-decoration: none;
     color: #606060;
 }
@@ -178,19 +179,6 @@ input{
 
 input:focus {
     border-color: gray;
-}
-
-input#psw {
-    background-image: url("../img/lock.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
-    border: 1px solid #DADADA;
-    margin-top: 10px;
-    padding-left: 25px;
-    font-size: 14px;
-    box-shadow: 0 0 10px;
-    color: dimgrey;
-    text-decoration: none;
 }
 
 input#mail {
@@ -217,23 +205,28 @@ input#mail {
     color: #5a5555;
 }
 
-#und1{
+#under-line1{
     margin-right: 85%;
     border-color: #0796C1;
 }
 
-.und2{
+#under-line22{
     margin-right: 85%;
+    margin-left: 0px;
+    border-color: #0796C1;
+}
+#under-line2{
+    margin-right: 80%;
     margin-left: 0px;
     border-color: #0796C1;
 }
 
-#und3{
+#under-line3{
     margin-right: 85%;
     margin-left: 0px;
     border-color: #0796C1;
 }
-input#psw2 {
+input.psw {
     background-image: url("../img/lock.png");
     background-repeat: no-repeat;
     background-position: 6px;
@@ -340,19 +333,19 @@ input#name2 {
     position: relative;
     display: none;
 }
-.right2 {
+#right-box2 {
     width: 200px;
     margin-left: 26%;
     display: block;
 }
 
-.left2 {
+#left2{
     width: 200px;
     margin-left:25%;
 
 }
 
-.login2 .btn2 {
+.login2 #line2 {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -363,19 +356,19 @@ input#name2 {
     left: 50%;
     border: none;
     cursor: pointer;
+    top: 15%;
     border-radius: 25px;
     margin-top: 10%;
-    opacity: 0%;
 }
 
-.btn2 span {
+#line2 span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-.btn2 span:after {
+#line2 span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -384,11 +377,11 @@ input#name2 {
     transition: 0.5s;
 }
 
-.btn2:hover span {
+#line2:hover span {
     padding-right: 25px;
 }
 
-.btn2:hover span:after {
+#line2:hover span:after {
     opacity: 1;
     right: 0;
 }
