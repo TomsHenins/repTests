@@ -33,6 +33,7 @@ body {
     right: -20px;
     transition: 0.5s;
 }
+
 .login > button:hover span {
     padding-right: 25px;
 }
@@ -41,6 +42,7 @@ body {
     opacity: 1;
     right: 0;
 }
+
 #sign {
     display: inline-block;
     padding: 15px 40px;
@@ -59,14 +61,17 @@ body {
     cursor: pointer;
     outline: none;
 }
+
 #sign:hover{
     background-color: dodgerblue;
 }
+
 #sign:hover span:after {
     opacity: 1;
     right: 0;
     background-color: #aeddf5;
 }
+
 #sign span:after {
     content: '\00bb';
     position: absolute;
@@ -75,16 +80,19 @@ body {
     right: -20px;
     transition: 0.5s;
 }
+
 #sign span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
+
 #pirma-lapa {
     position: relative;
     display: block;
 }
+
 #right-box {
     width: 200px;
     margin-left:50%;
@@ -127,12 +135,13 @@ p {
     color: black;
     margin-top: 7%;
     position: absolute;
-    border-top: 6px outset;
+    border-top: 6px outset 2.5p;
     border-left: 2.5px outset;
     border-right: 2.5px outset;
     border-bottom: 6px outset;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #move {
     width: 300px;
     padding-right:15px;
@@ -156,6 +165,7 @@ p {
     float:left;
     padding-left: 110px;
 }
+
 #href-link a {
     text-decoration: none;
     color: #606060;
@@ -213,6 +223,7 @@ input.psw {
     font-size: 14px;
     box-shadow: 0 0 10px;
 }
+
 input#date {
     background: url("../img/old-man-vector-png.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
@@ -256,6 +267,7 @@ input#name2 {
     margin-top: 50%;
     box-sizing: border-box;
 }
+
 #second2 {
     width: 23%;
     padding-left: 4%;
@@ -285,6 +297,7 @@ input#name2 {
 .for2{
     color: gray;
 }
+
 #element22 {
     float:left;
 }
@@ -293,13 +306,12 @@ input#name2 {
     position: relative;
     display: none;
 }
+
 #right-box2 {
     width: 200px;
     margin-left: 26%;
     display: block;
 }
-
-
 
 #login-style {
     position: relative;
@@ -390,9 +402,11 @@ input#name2 {
 .line-break {
     margin-top: 2px;
 }
+
 .long-line-break {
     margin-top: 15%;
 }
+
 .r-line-break {
     padding-top: 20px;
 }
