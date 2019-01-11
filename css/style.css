@@ -1,10 +1,8 @@
 body {
-background-image: url("../img/background.png");
-background-repeat: no-repeat;
-background-size: cover;
-
+    background:url("../img/background.png")no-repeat scroll top / cover;
 }
-.login #login-style {
+
+.login > button{
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -18,17 +16,16 @@ background-size: cover;
     border-radius: 25px;
     top: 15%;
     outline: none;
-
-
 }
-#login-style span {
+
+.login > button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-#login-style span:after {
+.login > button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -36,11 +33,11 @@ background-size: cover;
     right: -20px;
     transition: 0.5s;
 }
-#login-style:hover span {
+.login > button:hover span {
     padding-right: 25px;
 }
 
-#login-style:hover span:after {
+.login > button:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -48,8 +45,7 @@ background-size: cover;
     display: inline-block;
     padding: 15px 40px;
     color: #aeddf5;
-    border-color: #0796C1;
-    border: 1px solid;
+    border: 1px solid #0796C1;
     text-decoration: none;
     font-size: 14px;
     line-height: 120%;
@@ -109,7 +105,7 @@ p {
     color:gainsboro;
 }
 
-#first{
+.left > div{
     width: 360%;
     padding-left: 25%;
     padding-right: 220%;
@@ -181,12 +177,10 @@ input:focus {
     border-color: gray;
 }
 
-input#mail {
-    background-image: url("../img/mail.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
+input.mail {
+    background:url("../img/mail.png")no-repeat scroll 6px;
     border: 1px solid #DADADA;
-    margin-top: 10px;
+    margin-top: 6px;
     padding-left: 25px;
     font-size: 14px;
     box-shadow: 0 0 10px;
@@ -205,31 +199,14 @@ input#mail {
     color: #5a5555;
 }
 
-#under-line1{
+.under-line1{
     margin-right: 85%;
-    border-color: #0796C1;
-}
-
-#under-line22{
-    margin-right: 85%;
-    margin-left: 0px;
-    border-color: #0796C1;
-}
-#under-line2{
-    margin-right: 80%;
     margin-left: 0px;
     border-color: #0796C1;
 }
 
-#under-line3{
-    margin-right: 85%;
-    margin-left: 0px;
-    border-color: #0796C1;
-}
 input.psw {
-    background-image: url("../img/lock.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
+    background: url("../img/lock.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
     margin-top: 5px;
     padding-left: 25px;
@@ -237,9 +214,7 @@ input.psw {
     box-shadow: 0 0 10px;
 }
 input#date {
-    background-image: url("../img/old-man-vector-png.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
+    background: url("../img/old-man-vector-png.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
     margin-top: 5px;
     padding-left: 25px;
@@ -247,21 +222,9 @@ input#date {
     box-shadow: 0 0 10px;
     color: #5a5555;
 }
-input#mail2 {
-    background-image: url("../img/mail.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
-    border: 1px solid #DADADA;
-    margin-top: 5px;
-    padding-left: 25px;
-    font-size: 14px;
-    box-shadow: 0 0 10px;
-}
 
 input#name2 {
-    background-image: url("../img/lock2.png");
-    background-repeat: no-repeat;
-    background-position: 6px;
+    background: url("../img/lock2.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
     padding-left: 25px;
     font-size: 14px;
@@ -338,7 +301,7 @@ input#name2 {
 
 
 
-#login-style2 {
+#login-style {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -354,14 +317,14 @@ input#name2 {
     margin-top: 10%;
 }
 
-#login-style2 span {
+#login-style span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-#login-style2 span:after {
+#login-style span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -370,21 +333,20 @@ input#name2 {
     transition: 0.5s;
 }
 
-#login-style2:hover span {
+#login-style:hover span {
     padding-right: 25px;
 }
 
-#login-style2:hover span:after {
+#login-style:hover span:after {
     opacity: 1;
     right: 0;
 }
 
-#sign2{
+#first2 > button{
     display: inline-block;
     padding: 15px 40px;
     color: #aeddf5;
-    border-color: #0796C1;
-    border: 1px solid;
+    border: 1px solid #0796C1;
     text-decoration: none;
     font-size: 14px;
     line-height: 120%;
@@ -400,16 +362,16 @@ input#name2 {
     outline: none;
 }
 
-#sign2:hover{
+#first2 > button:hover{
     background-color: dodgerblue;
 }
 
-#sign2:hover span:after {
+#first2 > button span:after {
     opacity: 1;
     right: 0;
 }
 
-#sign2 span:after {
+#first2 > button:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -418,9 +380,19 @@ input#name2 {
     transition: 0.5s;
 }
 
-#sign2 span {
+#first2 > button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
+}
+
+.line-break {
+    margin-top: 2px;
+}
+.long-line-break {
+    margin-top: 15%;
+}
+.r-line-break {
+    padding-top: 20px;
 }
