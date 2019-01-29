@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-	    <div id="pirma-lapa">
-          <div class="left">
-                <div>
-                    <h1>Dont have an account!</h1>
-                    <hr class   ="under-line1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
-                    <button id="sign">Sign Up</button>
+    <head>
+      <meta charset="utf-8">
+      <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+            <div id="pirma-lapa">
+              <div class="left">
+                    <div>
+                        <h1>Dont have an account!</h1>
+                        <hr class="under-line1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+                        <button id="sign">Sign Up</button>
+                    </div>
+                </div>
+                <div id="right-box">
+                    <form action="php/form.php" method="post">
+                        <div id="second">
+                            <div id="move">
+                                <div id="header">
+                                    <img src="img/logo.png" alt="logo"/>
+                                    <h2>Login</h2>
+                                    <hr class="under-line1">
+                                 </div>
+                                    <div class="long-line-break"></div>
+                                       <input class="mail" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" type="text" placeholder="Email" name="email" required>
+                                    <div class="line-break"></div>
+                                    <input class="psw" type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                                    <div class="line-break"></div>
+                                    <div class="long-line-break"></div>
+                                <div class="login" id="element2">
+                                    <button value="submit" name="submit" type="submit">Login</button>
+                                </div>
+                                <div id="element1">
+                                     <span id="href-link"><a href="#">Forgot?</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                    </form>
                 </div>
             </div>
-		    <div id="right-box">
-                <form action="php/form.php" method="post">
-                    <div id="second">
-                        <div id="move">
-                        <div id="header">
-                            <img src="img/logo.png" alt="logo"/>
-                            <h2>Login</h2>
-                            <hr class="under-line1">
-                         </div>
-                            <div class="long-line-break"></div>
-                               <input class="mail" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" type="text" placeholder="Email" name="email" required>
+            <div class="clear">
+            </div>
+        <div id="otra-lapa">
+            <div class="left">
+                <div id="first2">
+                    <h1>Have an account!</h1>
+                    <hr class="under-line1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <button id="sign2">Login</button>
+                </div>
+            </div>
+            <div id="right-box2">
+                <form action="php/reg.php" method="post">
+                    <div id="second2">
+                        <div id="move2">
+                            <div id="header2">
+                                <img src="img/logo.png" alt="logo" />
+                                <h2>Sign up</h2>
+                                <hr class="under-line1">
+                            </div>
                             <div class="line-break"></div>
-                            <input class="psw" type="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                            <input class="name2" type="text" placeholder="Name" name="regname" required>
                             <div class="line-break"></div>
-                            <div class="long-line-break"></div>
-                        <div class="login" id="element2">
-                            <button value="submit" name="submit" type="submit">Login</button>
-                        </div>
-                        <div id="element1">
-                             <span id="href-link"><a href="#">Forgot?</a></span>
-                        </div>
-                    </div>
+                            <input class="mail" type="text" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Email" name="regemail" required>
+                            <div class="line-break"></div>
+                            <input class="psw" type="password" placeholder="Password" name="regpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                            <div class="line-break"></div>
+                            <input class="date" placeholder="name" type="date" name="age">
+                            <div class="r-line-break"></div>
+                            <div  class="login" id="element22">
+                                <button id="login-style" value="submit" type="submit">Sign Up</button>
+                            </div>
+                      </div>
                     </div>
                     <br/>
                 </form>
@@ -43,71 +81,30 @@
         </div>
         <div class="clear">
         </div>
-    <div id="otra-lapa">
-        <div class="left">
-            <div id="first2">
-                <h1>Have an account!</h1>
-                <hr class="under-line1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <button id="sign2">Login</button>
-            </div>
-        </div>
-        <div id="right-box2">
-            <form action="php/reg.php" method="post">
-                <div id="second2">
-                    <div id="move2">
-                        <div id="header2">
-                            <img src="img/logo.png" alt="logo" />
-                            <h2>Sign up</h2>
-                            <hr class="under-line1">
-                        </div>
-                        <div class="line-break"></div>
-                        <input id="name2" type="text" placeholder="Name" name="regname" required>
-                        <div class="line-break"></div>
-                        <input class="mail" type="text" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Email" name="regemail" required>
-                        <div class="line-break"></div>
-                        <input class="psw" type="password" placeholder="Password" name="regpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-                        <div class="line-break"></div>
-                        <input id="date" placeholder="name" type="date" name="age">
-                        <div class="r-line-break"></div>
-                        <div  class="login" id="element22">
-                            <button id="login-style" value="submit" type="submit">Sign Up</button>
-                        </div>
-                  </div>
-                </div>
-                <br/>
-            </form>
-        </div>
-    </div>
-    <div class="clear">
-    </div>
-  <script src="js/jquery.js"></script>
-    <script type="text/javascript">
+      <script src="js/jquery.js"></script>
+        <script type="text/javascript">
 
-       $("#sign").click(function() {
-           setTimeout(function () {
-               document.getElementById("pirma-lapa").style.display = "none";
-               document.getElementById("otra-lapa").style.display = "block";
-           }, 400);
-           $("#right-box").animate({marginLeft: "26%"});
-           $("#move").animate({opacity: '1', opacity: '0'});
-           $("#move").animate({opacity: '1'});
-       });
+           $("#sign").click(function() {
+               setTimeout(function () {
+                   document.getElementById("pirma-lapa").style.display = "none";
+                   document.getElementById("otra-lapa").style.display = "block";
+               }, 400);
+               $("#right-box").animate({marginLeft: "26.5%"});
+               $("#move").animate({opacity: '1', opacity: '0'}).animate({opacity: '1'});
+           });
 
-       $("#sign2").click(function() {
-           setTimeout(function () {
-               document.getElementById("pirma-lapa").style.display = "block";
-               document.getElementById("otra-lapa").style.display = "none";
-           }, 400);
-           $("#right-box").animate({marginLeft: "50%"});
-           $("#right-box2").animate({marginLeft: "50%"});
-           $("#right-box2").animate({marginLeft: "26%"});
-           $("#move2").animate({opacity: '1', opacity: '0'});
-           $("#move2").animate({opacity: '1'});
-       });
+           $("#sign2").click(function() {
+               setTimeout(function () {
+                   document.getElementById("pirma-lapa").style.display = "block";
+                   document.getElementById("otra-lapa").style.display = "none";
+               }, 400);
+               $("#right-box").animate({marginLeft: "50%"});
+               $("#right-box2").animate({marginLeft: "50%"}).animate({marginLeft: '26.5%'});
+               $("#move2").animate({opacity: '1', opacity: '0'}).animate({opacity: '1'});
+           });
 
-    </script>
+        </script>
 
-</body>
+    </body>
 
 </html>

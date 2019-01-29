@@ -2,7 +2,7 @@ body {
     background:url("../img/background.png")no-repeat scroll top / cover;
 }
 
-.login > button{
+.login > button {
     position: relative;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -62,7 +62,7 @@ body {
     outline: none;
 }
 
-#sign:hover{
+#sign:hover {
     background-color: dodgerblue;
 }
 
@@ -113,7 +113,7 @@ p {
     color:gainsboro;
 }
 
-.left > div{
+.left > div {
     width: 360%;
     padding-left: 25%;
     padding-right: 220%;
@@ -135,7 +135,7 @@ p {
     color: black;
     margin-top: 7%;
     position: absolute;
-    border-top: 6px outset 2.5p;
+    border-top: 6px outset;
     border-left: 2.5px outset;
     border-right: 2.5px outset;
     border-bottom: 6px outset;
@@ -157,7 +157,7 @@ p {
     clear: both;
 }
 
-.for{
+.for {
     color: gray;
 }
 
@@ -175,7 +175,7 @@ p {
     float:left;
 }
 
-input{
+input {
     height:11%;
     width: 75%;
     outline: none;
@@ -209,7 +209,7 @@ input.mail {
     color: #5a5555;
 }
 
-.under-line1{
+.under-line1 {
     margin-right: 85%;
     margin-left: 0px;
     border-color: #0796C1;
@@ -224,7 +224,7 @@ input.psw {
     box-shadow: 0 0 10px;
 }
 
-input#date {
+input.date {
     background: url("../img/old-man-vector-png.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
     margin-top: 5px;
@@ -234,7 +234,7 @@ input#date {
     color: #5a5555;
 }
 
-input#name2 {
+input.name2 {
     background: url("../img/lock2.png") no-repeat scroll 6px;
     border: 1px solid #DADADA;
     padding-left: 25px;
@@ -256,7 +256,7 @@ input#name2 {
     color: #5a5555;
 }
 
-#first2{
+#first2 {
     width: 360%;
     padding-left: 200%;
     padding-right:  15%;
@@ -294,7 +294,7 @@ input#name2 {
     position: absolute;
 }
 
-.for2{
+.for2 {
     color: gray;
 }
 
@@ -354,7 +354,7 @@ input#name2 {
     right: 0;
 }
 
-#first2 > button{
+#first2 > button {
     display: inline-block;
     padding: 15px 40px;
     color: #aeddf5;
@@ -374,7 +374,7 @@ input#name2 {
     outline: none;
 }
 
-#first2 > button:hover{
+#first2 > button:hover {
     background-color: dodgerblue;
 }
 
