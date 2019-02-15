@@ -18,17 +18,7 @@ class sendData
       if($_SERVER['REQUEST_METHOD']=="POST") {
         $regemail = $_POST['regemail'];
         $regname = $_POST['regname'];
-        $age = $_POST['age']
-        $db = "SELECT * FROM regdati WHERE regemail = '$regemail'";
-
-       $result=mysql_query($sql);
-
-       if(mysql_num_rows($result)!=0)
-              {
-               echo"name already exists";
-              }
-            else
-            {
+        $age = $_POST['age'];
       $regpass = $_POST['regpassword'];
       $reghash = password_hash($regpass, PASSWORD_DEFAULT);
     $user = 'root';
@@ -53,6 +43,5 @@ class sendData
       $db->close();
       }
     }
-  }
 }
 ?>
