@@ -1,0 +1,21 @@
+.loggedBox {
+    margin-top: 10%;
+    color: honeydew;
+    font-size: 15px;
+}
+.backgroundBox {
+    background:url("../img/tuksvidusmelns.png")no-repeat scroll top / cover;
+    width: 45%;
+    height: 40%;
+    margin: -70px 0 0 -120px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 20px;
+}
+
+body {
+    background:url("../img/background.png")no-repeat scroll top / cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -125,7 +125,7 @@ p {
     box-sizing: border-box;
 }
 
-#second {
+.second {
     width: 23%;
     padding-left: 5.1%;
     margin-left: 1%;
@@ -166,7 +166,7 @@ p {
     padding-left: 110px;
 }
 
-#href-link a {
+.href-link a {
     text-decoration: none;
     color: #606060;
 }
@@ -196,13 +196,13 @@ input.mail {
     box-shadow: 0 0 10px;
 }
 
-#header img {
+.header img {
     float: right;
     padding-right: 50px;
     padding-top: 25px;
 }
 
-#header h2 {
+.header h2 {
     position: relative;
     top: 18px;
     font-family: serif;
@@ -243,18 +243,6 @@ input.name2 {
     margin-top: 5px;
 }
 
-#header2 img {
-    float: right;
-    padding-right: 50px;
-    padding-top: 20px;
-}
-
-#header2 h2 {
-    position: relative;
-    top: 18px;
-    font-family: serif;
-    color: #5a5555;
-}
 
 #first2 {
     width: 360%;
@@ -268,7 +256,7 @@ input.name2 {
     box-sizing: border-box;
 }
 
-#second2 {
+.second2 {
     width: 23%;
     padding-left: 4%;
     float: left;
